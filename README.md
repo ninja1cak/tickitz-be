@@ -108,7 +108,7 @@ Currently, there are no contributors to this project. If you would like to contr
 
 ## Related Projects
 
-- [Zwallet Front End](https://github.com/ninja1cak/tickitz-react) - Front End
+- [Tickitz Front End](https://github.com/ninja1cak/tickitz-react) - Front End
 
 ## License
 
