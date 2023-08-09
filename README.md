@@ -1,8 +1,8 @@
 <div align='center' style="text-align: center;">
 
-<h1 style="border:0;margin:1rem">Zwallet Backend</h1>
+<h1 style="border:0;margin:1rem">Tickitz Backend</h1>
 
-Backend for Zwallet
+Backend for Tickitz
 
 [Suggestion](mailto:hauzan41200@gmail.com)
 
@@ -28,13 +28,13 @@ Backend for Zwallet
 
 ## Overview
 
-Zwallet is an application that focussing in banking needs for all users in the world. Zwallet app supports banking activities such as transfers, top ups, histories, etc. Zwallet app also supports user controls such as login, register, and update profiles.
+Tickits is a web-based application for ticket booking movies and cinemas.
 
 ## Features
 
 - Authentication
-- Transaction (search, sort, filter, create)
-- User Role: Tranfer, Profile (Update)
+- User Role: Tranfer, Edit Profile (Update)
+- Admin Role: Create update movie details and movie schedule
 - Error Handling
 - Email Activation
 - etc.
@@ -56,13 +56,13 @@ Zwallet is an application that focussing in banking needs for all users in the w
 1. Clone this repo
 
    ```bash
-   git clone https://github.com/ninja1cak/zwallet-be
+   git clone https://github.com/ninja1cak/tickitz-be
    ```
 
 2. Enter the directory
 
    ```bash
-   cd zwallet-be
+   cd tickitz-be
    ```
 
 3. Install all dependencies
@@ -102,20 +102,13 @@ Zwallet is an application that focussing in banking needs for all users in the w
 
 You can download in <a href='https://drive.google.com/file/d/1iGTRVvIm_XJAoyn6ciRrdqwhckKD1cm3/view?usp=sharing'> Here </a>
 
-
-## Resources
-
-Special thanks to:
-
-- [Vercel](https://vercel.com) - deploying code
-
 ## Contributors
 
 Currently, there are no contributors to this project. If you would like to contribute, you can submit a pull request.
 
 ## Related Projects
 
-- [Zwallet Front End](https://github.com/ninja1cak/zwallet-fe) - Front End
+- [Zwallet Front End](https://github.com/ninja1cak/tickitz-react) - Front End
 
 ## License
 
