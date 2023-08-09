@@ -5,7 +5,7 @@ require('dotenv/config')
 const transporter = nodemailer.createTransport({
   service: 'Gmail',
   auth: {
-    user: 'zwallet6@gmail.com',
+    user: process.env.NODEMAILER_EMAIL,
     pass: process.env.NODEMAILER_PASSWORD
   }
 })
@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
 
 const configSendaMail =  (email, confirmationCode) => {
   const mailOptions = {
-    from: 'zwallet6@gmail.com',
+    from: process.env.NODEMAILER_EMAIL,
     to: email,
     subject: 'subject',
     text: `Open this link for account verification: localhost:3000/login/${confirmationCode} `
